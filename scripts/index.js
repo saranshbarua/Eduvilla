@@ -8,6 +8,7 @@ $(document).ready(function() {
 	$('#jumpin').on('click',function(){
 		$('.box').css('display','none');
 		$('.main').css('display','block');
+		$('.footer').css('display','block');
 	});
 
 // function testScroll(ev){
