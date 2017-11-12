@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eduvilla</title>
+	<link rel="stylesheet" type="text/css" href="styles/todo.css">
+	<link href="https://fonts.googleapis.com/css?family=Assistant:200|Cookie" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+<body>
+	<div class="main">
+		<nav class="navbar navbar-fixed-top" id="navu">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <li data-menuanchor="Home" style="list-style-type: none;"><a href="#play" class="navbar-brand" style="font-size:30px;">Eduvilla</a></li>
+			    </div>
+			  </div>
+		</nav>
+		<div class="create">
+			<input type="text" name="todoinput" class="todoinput">
+			<br>
+			<button class="butt">Create an event</button>
+			<button class="butt">Delete checked events</button>
+		</div>
+		<div class="todo">
+			<div class="title">Let's learn react</div>
+			<div class="endline">
+				<div class="checkbox" id="tick"></div>
+				<div class="authkey">Authorization key: 8485498168546548</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="scripts/todo.js"></script>
+</body>
+</html>
